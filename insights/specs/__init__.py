@@ -150,6 +150,7 @@ class Specs(SpecSet):
     foreman_ssl_access_ssl_log = RegistryPoint(filterable=True)
     foreman_rake_db_migrate_status = RegistryPoint()
     foreman_tasks_config = RegistryPoint(filterable=True)
+    freeipa_healthcheck_log = RegistryPoint(filterable=True)
     fstab = RegistryPoint()
     galera_cnf = RegistryPoint()
     getcert_list = RegistryPoint()
